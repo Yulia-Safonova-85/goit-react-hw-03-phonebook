@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { nanoid } from 'nanoid';
 import { GlobalStyle } from './GlobalStyle';
-import { PhoneForm } from '../PhoneForm/PhoneForm';
-import { ContactList } from '../ContactList/ContactList';
-import { Filter } from '../Filter/Filter';
+import { PhoneForm } from './PhoneForm/PhoneForm';
+import { ContactList } from './ContactList/ContactList';
+import { Filter } from './Filter/Filter';
 import { Layout } from './Layout';
-import initialContacts from '//src./contacts.json';
+import initialContacts from '../contacts.json';
 
 export class App extends Component {
   state = {
